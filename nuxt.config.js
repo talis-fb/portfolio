@@ -5,7 +5,7 @@ const meu_tema = {
   primary: '#FFCB69',
   accent: '#D9AE94',
   secondary: '#9B9B7A',
-  info: '#F1DCA7',
+  info: '#FFE8D6',
   warning: '#D08C60',
   error: '#997B66',
   success: '#797D62',
@@ -14,8 +14,8 @@ const meu_tema = {
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - primeiro',
-    title: 'primeiro',
+    titleTemplate: '%s',
+    title: 'Portfolio',
     htmlAttrs: {
       lang: 'en',
     },

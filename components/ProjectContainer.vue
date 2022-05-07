@@ -17,7 +17,7 @@ export default {
         id="project-card"
         class="mx-auto"
         max-width="344"
-        color="secondary"
+        color="primary"
       >
         <v-img :src="img" height="200px">
           <template v-slot:placeholder>
@@ -32,7 +32,7 @@ export default {
           <v-fade-transition v-if="sourceCode">
             <v-overlay v-if="hover" absolute color="#036358">
               <a v-if="site" :href="site" target="_blank">
-                <v-btn><v-icon>mdi-open-in-new</v-icon>Deploy</v-btn>
+                <v-btn><v-icon>mdi-open-in-new</v-icon>Acessar o projeto</v-btn>
               </a>
 
               <a v-if="sourceCode" :href="sourceCode" target="_blank">

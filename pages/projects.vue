@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col :key="i" v-for="(el, i) in projectypescript" class="text-center">
+      <v-col :key="i" v-for="(el, i) in projects" class="text-center">
         <ProjectContainer
           :img="el.img"
           :title="el.title"
@@ -17,36 +17,36 @@
 
 <script>
 export default {
-  name: 'Projectypescript',
+  name: 'Projects',
   data: function () {
     return {
-      projectypescript: [
+      projects: [
         {
           title: 'Este portfolio',
-          description: 'Esse mesmo',
+          description: 'Construido com o intuito de se tornar um site pessoal, listando os projetos que já desenvolvi',
           tools: ['nuxtjs', 'vuejs', 'vuetify'],
           img: 'racoon.jpg',
           sourceCode: 'https://github.com/talis-fb/portfolio'
         },
         {
           title: 'Pokedex Vue',
-          description: 'Um chat bonitao',
-          tools: ['typescript', 'vuejs', 'sass'],
+          description: 'Uma pokedex feita em VueJS para aprender a utilizar o framework',
+          tools: ['typescript', 'vuejs', 'sass', 'heroku'],
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
-
+          site: 'https://pokedex-treino-vue.herokuapp.com/',
           sourceCode: 'https://github.com/talis-fb/pokedex-vue'
 
         },
         {
           title: 'Pokedex React',
-          description: 'Um chat bonitao',
+          description: 'Uma simples pokedex feita em ReactJS, que utiliza a API do Pokemon, feita com o intuito de aprender e praticar o uso do ReactJS',
           tools: ['javascript', 'react'],
           img: 'https://github.com/talis-fb/pokedex/raw/master/screenshot.png',
           sourceCode: 'https://github.com/talis-fb/pokedex'
         },
         {
           title: 'Telegram bot',
-          description: 'Um chat bonitao',
+          description: 'Um bot do telegram feito para preencher automaticamente uma planinha do Google Sheets com gastos diários.',
           tools: ['typescript', 'heroku'],
           img: 'https://wersm.com/wp-content/uploads/2016/11/wersm-telegram-telegraph.jpg',
           sourceCode: 'https://github.com/talis-fb/telegram_bot'
@@ -61,15 +61,15 @@ export default {
           site: 'https://talis-fb.github.io/SnakeGameWithOneArray/'
         },
         {
-          title: 'notion-clone',
-          description: 'Um chat bonitao',
+          title: 'Notion Clone',
+          description: 'Um clone super básico da interface do Notion feito para aprender a utilizar o ReduxJS aplicado ao React e o uso de Styleds Components com o Emotion',
           tools: ['javascript', 'react', 'redux', 'vite', 'emotion'],
           img: 'notion_clone_print.png',
           sourceCode: 'https://github.com/talis-fb/notion-clone',
         },
         {
           title: 'Ocma',
-          description: 'Um chat bonitao',
+          description: 'Projeto desenvolvimento na matéria de ITP do curso de BTI. Um Bot que joga sozinho um jogo de pesca.',
           tools: ['c'],
           img: 'https://github.com/talis-fb/ocma/raw/main/screen.png',
 
@@ -77,14 +77,14 @@ export default {
         },
         {
           title: 'Chat',
-          description: 'Um chat bonitao',
+          description: 'Um chat simples e completo feito para aprender e fixar conhecimentos web: desenvolvimento de servidores back-end com WebSockets, uso de banco de dados e criaçãod e uma interface com React',
           tools: ['javascript', 'react', 'sass', 'nodejs', 'socketio','mongodb'],
           img: 'https://github.com/talis-fb/Chat/raw/main/screenshot1.png',
           sourceCode: 'https://github.com/talis-fb/Chat'
         },
         {
           title: 'SQLClient',
-          description: 'A very simple, easy, fast and minilmalist client SQLite for beginner practice the language SQL',
+          description: 'Um cliente de SQLite super simples e minimalista feito para testar e aprender comandos SQL básicos. Ele roda em HTML e executa os comandos recebidos em um arquivo SQLite, mostrando o resultado quando é retornado uma tabela.',
           tools: ['sqlite', 'javascript', 'html5', 'css3'],
           img: 'https://github.com/talis-fb/SQLClient/raw/master/screenshot.png',
           sourceCode: 'https://github.com/talis-fb/SQLClient'
@@ -105,7 +105,7 @@ export default {
         },
         {
           title: 'BluExodia',
-          description: 'Um chat bonitao',
+          description: 'Projeto desenvolvido para o projeto Integrador do Curso de eletrônica do IFRN. Uma biblioteca de Arduino feita para facilitar o uso do componente de leitura e escrita de cartões RFID',
           tools: ['cplusplus', 'arduino'],
           img: 'bluexodia_print.jpg',
           sourceCode: 'https://github.com/talis-fb/BluExodia'
