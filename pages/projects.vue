@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col :key="i" v-for="(el, i) in projects" class="text-center">
+    <v-col :key="i" v-for="(el, i) in projectypescript" class="text-center">
       <ProjectContainer
         :img="el.img"
         :title="el.title"
@@ -13,44 +13,50 @@
 
 <script>
 export default {
-  name: 'Projects',
+  name: 'Projectypescript',
   data: function () {
     return {
-      projects: [
+      projectypescript: [
         {
           title: 'Chat',
           description: 'Um chat bonitao',
-          tools: ['js', 'react', 'sass'],
+          tools: ['javascript', 'react', 'sass'],
           img: 'https://github.com/talis-fb/Chat/raw/main/screenshot1.png',
         },
         {
           title: 'Pokedex Vue',
           description: 'Um chat bonitao',
-          tools: ['js', 'react'],
+          tools: ['javascript', 'react'],
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
         },
         {
           title: 'Telegram bot',
           description: 'Um chat bonitao',
-          tools: ['ts'],
+          tools: ['typescript'],
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
         },
         {
           title: 'notion-clone',
           description: 'Um chat bonitao',
-          tools: ['js', 'react', 'redux'],
+          tools: ['javascript', 'react',  'redux', 'vite','emotion'],
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
         },
         {
-          title: 'BluExodi',
+          title: 'BluExodia',
           description: 'Um chat bonitao',
-          tools: ['cpp', 'arduino'],
+          tools: ['cplusplus', 'arduino'],
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
         },
         {
           title: 'SnakeGame With One Array',
           description: 'Jogo da Cobrinha clássico, em JavaScript e HTML, onde todo o campo, cenário, comida e a cobra são unicamente uma Array.',
-          tools: ['js', 'html'],
+          tools: ['javascript', 'html5'],
+          img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
+        },
+        {
+          title: 'Este portfolio',
+          description: 'Esse mesmo',
+          tools: ['nuxtjs', 'vuejs', 'vuetify'],
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
         }
       ],
