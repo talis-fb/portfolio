@@ -91,4 +91,9 @@ export default {
   build: {},
 
   loading: '~/components/LoadingPage.vue',
+
+  target: 'static',
+  router: {
+    base: 'portfolio',
+  },
 }
