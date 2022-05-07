@@ -1,14 +1,16 @@
 <template>
-  <v-row>
-    <v-col :key="i" v-for="(el, i) in projectypescript" class="text-center">
-      <ProjectContainer
-        :img="el.img"
-        :title="el.title"
-        :description="el.description"
-        :tools="el.tools"
-      ></ProjectContainer>
-    </v-col>
-  </v-row>
+  <v-container>
+    <v-row>
+      <v-col :key="i" v-for="(el, i) in projectypescript" class="text-center">
+        <ProjectContainer
+          :img="el.img"
+          :title="el.title"
+          :description="el.description"
+          :tools="el.tools"
+        ></ProjectContainer>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -38,7 +40,7 @@ export default {
         {
           title: 'notion-clone',
           description: 'Um chat bonitao',
-          tools: ['javascript', 'react',  'redux', 'vite','emotion'],
+          tools: ['javascript', 'react', 'redux', 'vite', 'emotion'],
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
         },
         {
@@ -49,7 +51,8 @@ export default {
         },
         {
           title: 'SnakeGame With One Array',
-          description: 'Jogo da Cobrinha clássico, em JavaScript e HTML, onde todo o campo, cenário, comida e a cobra são unicamente uma Array.',
+          description:
+            'Jogo da Cobrinha clássico, em JavaScript e HTML, onde todo o campo, cenário, comida e a cobra são unicamente uma Array.',
           tools: ['javascript', 'html5'],
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
         },
@@ -58,7 +61,7 @@ export default {
           description: 'Esse mesmo',
           tools: ['nuxtjs', 'vuejs', 'vuetify'],
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
-        }
+        },
       ],
     }
   },

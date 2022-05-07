@@ -8,9 +8,7 @@
       <!-- <v-switch class="" outlined v-model="$vuetify.theme.dark" ></v-switch> -->
     </div>
     <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
+      <Nuxt />
     </v-main>
   </v-app>
 </template>
