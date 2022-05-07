@@ -94,6 +94,6 @@ export default {
 
   target: 'static',
   router: {
-    base: 'https://talis-fb.github.io/portfolio/',
+    base: 'portfolio',
   },
 }
