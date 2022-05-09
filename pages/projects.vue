@@ -52,6 +52,13 @@ export default {
           sourceCode: 'https://github.com/talis-fb/telegram_bot'
         },
         {
+          title: 'Dota 2 Website Clone',
+          description: 'Clone do site original do Dota 2',
+          tools: ['vuejs', 'sass'],
+          img: 'https://github.com/talis-fb/dota2-website/raw/master/screenshot1.png',
+          sourceCode: 'https://github.com/talis-fb/dota2-website'
+        },
+        {
           title: 'SnakeGame With One Array',
           description:
             'Jogo da Cobrinha clássico, em JavaScript e HTML, onde todo o campo, cenário, comida e a cobra são unicamente uma Array.',
