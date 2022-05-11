@@ -56,6 +56,7 @@ export default {
           description: 'Clone do site original do Dota 2',
           tools: ['vuejs', 'sass'],
           img: 'https://github.com/talis-fb/dota2-website/raw/master/screenshot1.png',
+          site: "https://talis-fb.github.io/dota2-website/",
           sourceCode: 'https://github.com/talis-fb/dota2-website'
         },
         {
