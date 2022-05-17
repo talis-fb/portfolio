@@ -50,6 +50,7 @@ export default {
           title: 'Simple-Chat',
           description: 'Um simples chat construído com NextJS e Firebase',
           tools: ['typescript', 'react', 'nextjs', 'redux', 'firebase'],
+          site: 'https://simple-chat-talis-fb.vercel.app/chat',
           img: 'https://github.com/talis-fb/Simple-Chat/raw/main/screenshot_1.png',
           sourceCode: 'https://github.com/talis-fb/Simple-Chat',
         },
