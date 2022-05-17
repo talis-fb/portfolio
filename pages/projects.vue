@@ -8,6 +8,7 @@
           :description="el.description"
           :tools="el.tools"
           :sourceCode="el.sourceCode"
+          :projectName="el.projectName"
           :site="el.site"
         ></ProjectContainer>
       </v-col>
@@ -28,6 +29,7 @@ export default {
           tools: ['nuxtjs', 'vuejs', 'vuetify'],
           img: 'racoon.jpg',
           sourceCode: 'https://github.com/talis-fb/portfolio',
+          projectName: 'portfolio',
         },
         {
           title: 'Pokedex Vue',
@@ -37,6 +39,7 @@ export default {
           img: 'https://github.com/talis-fb/pokedex-vue/raw/master/screnshoot.png',
           site: 'https://pokedex-treino-vue.herokuapp.com/',
           sourceCode: 'https://github.com/talis-fb/pokedex-vue',
+          projectName: 'pokedex-vue',
         },
         {
           title: 'Pokedex React',
@@ -45,6 +48,7 @@ export default {
           tools: ['javascript', 'react'],
           img: 'https://github.com/talis-fb/pokedex/raw/master/screenshot.png',
           sourceCode: 'https://github.com/talis-fb/pokedex',
+          projectName: 'pokedex',
         },
         {
           title: 'Simple-Chat',
@@ -53,6 +57,7 @@ export default {
           site: 'https://simple-chat-talis-fb.vercel.app/chat',
           img: 'https://github.com/talis-fb/Simple-Chat/raw/main/screenshot_1.png',
           sourceCode: 'https://github.com/talis-fb/Simple-Chat',
+          projectName: 'Simple-Chat',
         },
         {
           title: 'Telegram bot',
@@ -61,6 +66,7 @@ export default {
           tools: ['typescript', 'heroku'],
           img: 'https://wersm.com/wp-content/uploads/2016/11/wersm-telegram-telegraph.jpg',
           sourceCode: 'https://github.com/talis-fb/telegram_bot',
+          projectName: 'telegram_bot',
         },
         {
           title: 'Dota 2 Website Clone',
@@ -69,6 +75,7 @@ export default {
           img: 'https://github.com/talis-fb/dota2-website/raw/master/screenshot1.png',
           site: 'https://talis-fb.github.io/dota2-website/',
           sourceCode: 'https://github.com/talis-fb/dota2-website',
+          projectName: 'dota2-website',
         },
         {
           title: 'SnakeGame With One Array',
@@ -77,6 +84,7 @@ export default {
           tools: ['javascript', 'html5'],
           img: 'snake_game_print.png',
           sourceCode: 'https://github.com/talis-fb/SnakeGameWithOneArray',
+          projectName: 'SnakeGameWithOneArray',
           site: 'https://talis-fb.github.io/SnakeGameWithOneArray/',
         },
         {
@@ -86,6 +94,7 @@ export default {
           tools: ['javascript', 'react', 'redux', 'vite', 'emotion'],
           img: 'notion_clone_print.png',
           sourceCode: 'https://github.com/talis-fb/notion-clone',
+          projectName: 'notion-clone',
         },
         {
           title: 'Ocma',
@@ -95,6 +104,7 @@ export default {
           img: 'https://github.com/talis-fb/ocma/raw/main/screen.png',
 
           sourceCode: 'https://github.com/talis-fb/ocma',
+          projectName: 'ocma',
         },
         {
           title: 'Chat',
@@ -110,6 +120,7 @@ export default {
           ],
           img: 'https://github.com/talis-fb/Chat/raw/main/screenshot1.png',
           sourceCode: 'https://github.com/talis-fb/Chat',
+          projectName: 'Chat',
         },
         {
           title: 'SQLClient',
@@ -118,6 +129,7 @@ export default {
           tools: ['sqlite', 'javascript', 'html5', 'css3'],
           img: 'https://github.com/talis-fb/SQLClient/raw/master/screenshot.png',
           sourceCode: 'https://github.com/talis-fb/SQLClient',
+          projectName: 'SQLClient',
         },
         {
           title: 'Calculadora Com React',
@@ -126,6 +138,7 @@ export default {
           tools: ['javascript', 'react', 'css'],
           img: 'https://github.com/talis-fb/CalculadoraSimplesComReact/raw/master/screenshot.png',
           sourceCode: 'https://github.com/talis-fb/CalculadoraSimplesComReact',
+          projectName: 'CalculadoraSimplesComReact',
         },
         {
           title: 'PlayerVideoWeb',
@@ -133,6 +146,7 @@ export default {
           tools: ['javascript', 'html5', 'css3'],
           img: 'player_video_print.png',
           sourceCode: 'https://github.com/talis-fb/PlayerVideoWeb',
+          projectName: 'PlayerVideoWeb',
         },
         {
           title: 'BluExodia',
@@ -141,6 +155,7 @@ export default {
           tools: ['cplusplus', 'arduino'],
           img: 'bluexodia_print.jpg',
           sourceCode: 'https://github.com/talis-fb/BluExodia',
+          projectName: 'BluExodia',
         },
       ],
     }
