@@ -19,5 +19,5 @@ This project has used...
 * Github Pages
 
 <p align="center">
-Development with: <img width="200" height="200" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original-wordmark.svg" />
+Development with: <img height="200" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original-wordmark.svg" />
 </p>
