@@ -93,4 +93,7 @@ export default {
   loading: '~/components/LoadingPage.vue',
 
   target: 'static',
+  router: {
+    base: '/portfolio/',
+  },
 }
